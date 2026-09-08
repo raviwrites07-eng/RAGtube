@@ -1,0 +1,9 @@
+.venv/
+audio/
+transcripts/
+audio_splits/
+index.pkl
+progress.json
+__pycache__/
+*.pyc
+.env

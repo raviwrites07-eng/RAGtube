@@ -1,9 +1,2 @@
-.venv/
-audio/
-transcripts/
-audio_splits/
-index.pkl
-progress.json
-__pycache__/
-*.pyc
-.env
+
+[System.IO.File]::WriteAllText("$PWD\.gitignore", ".venv/`naudio/*.mp3`naudio/downloaded.txt`ntranscripts/`naudio_splits/`nprogress.json`n__pycache__/`n*.pyc`n.env`n")
